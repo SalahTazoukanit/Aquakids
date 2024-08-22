@@ -9,9 +9,9 @@
     <?php wp_head() ?>
 
 </head>
-<div class="principal-header">
-    <img class="logo" src="http://localhost:8888/Sites/wordpress/wp-content/uploads/2024/08/aquakids-logo.png" alt="">
-    <?php wp_nav_menu(array('theme_location' => 'header')); ?>
-</div>
 
 <body>
+    <div class="principal-header">
+        <img class="logo" src="http://localhost:8888/Sites/wordpress/wp-content/uploads/2024/08/aquakids-logo.png" alt="">
+        <?php wp_nav_menu(array('theme_location' => 'header')); ?>
+    </div>
