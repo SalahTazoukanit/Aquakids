@@ -38,19 +38,25 @@ h4{
     width: 200px;
 }
 .principal-header{
+    width: 80%;
     padding-left: 1%;
     padding-right: 1%;
     display: flex;
+    justify-content: space-between;
 }
-.menu ul,a,li{
+.menu a,li{
     color: black;
     display: flex;
     gap: 2em;
     justify-content:space-between;
-    text-decoration: none ;
+    text-decoration: none !important ;
 }
 .menu a:hover {
     color:  #39AAE2 ;
+}
+.menu{
+    display: flex;
+    gap: 2em;
 }
 .btn{
     display: flex;
@@ -173,4 +179,36 @@ h4{
     background-color: #39AAE2;
     color: white;
     border-radius: 50px;
+}
+/* last block */
+.all-container-five{
+    display: flex;
+    width: 100%;
+}
+.border-title h1{
+    filter: drop-shadow(0 0 0.75rem #39AAE2);
+}
+.container-five-img {
+    display: flex;
+   width: 100%;
+   object-fit: cover;
+   justify-content: flex-end;
+}
+.img-five{
+    width: 50%;
+    height: 400px;
+    margin-right:20% ;
+    object-fit: cover;
+    border-top-left-radius: 10% ;
+    border-bottom-left-radius: 40% ;
+    border-top-right-radius: 20% ;
+}
+.block-five{
+    position: relative;
+    width: 100%;
+}
+.container-five{
+    position: absolute;
+    left: 15%;
+    right: -40%;
 }
